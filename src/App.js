@@ -1,6 +1,12 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import Header from "./components/Divs/Header";
+import Navbar from "./components/Divs/Navbar";
+import Footer from "./components/Divs/Footer";
+
+
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
   useEffect(() => {
@@ -26,9 +32,9 @@ function App() {
   return (
     <div className="container">
       <Header />
-
-    
-
+      <Navbar thisPage={thisPage} newPage={newPage} /> 
+      {pageLoad()}
+      <Footer />
     </div>
   );
 }
