@@ -8,6 +8,7 @@ const styles = {
     },
   };
   
+  //  add icons for each link
 
   //        add links to linkedin ****
   export default function Footer() {
