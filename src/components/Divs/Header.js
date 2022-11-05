@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Header.css";
+import "../../styles/Header.css";
 
 const styles = {
     
-    headingStyle: {
+    h1Style: {
         fontSize: "16px",
     },
 
@@ -15,7 +15,7 @@ const styles = {
 export default function Header() {
   return (
     <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>John Roller</h1>
+      <h1 style={styles.h1Style}>John Roller</h1>
     </header>
   );
 }

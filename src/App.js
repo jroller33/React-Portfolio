@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
-import Header from "./components/Divs/Header";
-import Navbar from "./components/Divs/Navbar";
-import Footer from "./components/Divs/Footer";
+import Header from "./components/divs/Header";
+import Navbar from "./components/divs/Navbar";
+import Footer from "./components/divs/Footer";
 
 
 import './App.css';
