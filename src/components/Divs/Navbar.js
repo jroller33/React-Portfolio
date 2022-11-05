@@ -10,12 +10,13 @@ const styles = {
 };
 
 
+//  add links for about, portfolio, contact, and resume pages
+
+export default function Navbar({ changePage }) {
+    return (
 
 
-// const styles = {
-//   navbarStyle: {
-//     background: "#CAF0F8",
-//     alignItems: "center",
-//     justifyContent: "space-evenly",
-//   },
-// }
+
+    );
+}
+
