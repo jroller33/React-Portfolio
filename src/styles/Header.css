@@ -1,0 +1,14 @@
+.header {
+    height: 100%;
+  }
+  
+  .header h1 {
+      text-align: center;
+      grid-column: auto;
+      color: rgba(255, 255, 255, 0.762);
+      font-size: 48px;
+      margin-top: 3%;
+
+  }
+  
+  /* need to add hover effects */
