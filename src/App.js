@@ -1,7 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    document.title = "John's React Portfolio";
+  }, []);
+
+  const []
+
+
+
+
+
+
+
+
+
+
   return (
     <div className="App">
       <header className="App-header">
