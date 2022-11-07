@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../files/profilePic";
+import profilePic from "../../files/profilePic.jpg";
 
 
 const styles = {    // styles for about me page that are used in html

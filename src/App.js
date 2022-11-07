@@ -19,6 +19,7 @@ function App() {
   // this renders whatever page the user clicks on
   function pageLoad() {
     switch (thisPage) {
+      
       case "projects":
         return <Projects />;
 

@@ -28,7 +28,7 @@ const styles = {
 
 
 // HTML for projects page goes here
-export default function Portfolio() {
+export default function Projects() {
     return (
 
       <section>

@@ -12,21 +12,21 @@ const styles = {
 
 //  add links for about, portfolio, contact, and resume pages
 
-export default function Navbar({ changePage }) {
+export default function Navigation({ newPage }) {
     return (
 
         
     <nav style={styles.navStyle} className="navbar">
-    <a href="#about" onClick={() => changePage("about")}>
+    <a href="#about" onClick={() => newPage("about")}>
       About Me
     </a>
-    <a href="#portfolio" onClick={() => changePage("projects")}>
+    <a href="#projects" onClick={() => newPage("projects")}>
       Portfolio
     </a>
-    <a href="#contact" onClick={() => changePage("contact")}>
+    <a href="#contact" onClick={() => newPage("contact")}>
       Contact
     </a>
-    <a href="#resume" onClick={() => changePage("resume")}>
+    <a href="#resume" onClick={() => newPage("resume")}>
       Resume
     </a>
   </nav>
