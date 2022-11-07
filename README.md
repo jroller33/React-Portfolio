@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# React Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## Description
+
+
+## Table of Contents
+- [Usage](#usage)
+- [Link](#link)
+- [Screenshot](#screenshot)
+- [License](#license)
+- [Contact](#contact)
+
+
+## Usage
+
+
+## Link
+
+https://jroller33.github.io/React-Portfolio
+
+## Screenshot
+
+
+
+## License
+This project is licensed under the [MIT License](./LICENSE).
+
+## Contact
+[GitHub](https://github.com/jroller33)
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +97,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
