@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from "./components/divs/Header";
 import Navigation from "./components/divs/Navigation";
 import Footer from "./components/divs/Footer";
+import { Contact, About, Projects, Resume } from './components/pages'
 
 
 import './App.css';
@@ -18,7 +19,17 @@ function App() {
   // this renders whatever page the user clicks on
   function pageLoad() {
     switch (thisPage) {
-   
+      case "projects":
+        return <Projects />;
+
+      case "resume":
+        return <Resume />;
+
+      case "contact":
+        return <Contact />;
+
+      default:
+        return <About />;
 
     }
   }
