@@ -17,11 +17,13 @@ const styles = {
 
 
     head: {
+        textAlign: "center",
 
     },
 
     resumeLink: {
-
+        fontSize: "16px",
+        color: "black",
     }
 };
 

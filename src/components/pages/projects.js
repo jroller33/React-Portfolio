@@ -1,4 +1,5 @@
 import React from "react";
+import projectsJSON from "../../projectsJSON.json";
 
 // add styles for projects here
 const styles = {
