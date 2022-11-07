@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "PWA Text Editor",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/jroller33/PWA-Text-Editor"
+    },
+    {
+        "id": 2,
+        "title": "E-Commerce Site",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/jroller33/E-Commerce-Site"
+    },
+    {
+        "id": 3,
+        "title": "Crowdfunding App",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/jroller33/Crowdfunding-App"
+    },
+    {
+        "id": 4,
+        "title": "Employee CMS",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/jroller33/Employee-CMS"
+    },
+    {
+        "id": 5,
+        "title": "Express.js Notes App",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/jroller33/Express.js-Notes-App"
+    },
+    {
+        "id": 6,
+        "title": "Weather Dashboard",
+        "image": "https://via.placeholder.com/150",
+        "github": "https://github.com/jroller33/Weather-Dashboard"
+    }
+]

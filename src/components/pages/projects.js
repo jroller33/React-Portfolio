@@ -40,7 +40,6 @@ export default function Projects() {
             image={projectsJSON.image}
             title={projectsJSON.title}
             github={projectsJSON.github}
-            link={projectsJSON.link}
           />
         ))}
       </div>
