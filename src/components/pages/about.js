@@ -8,6 +8,9 @@ const styles = {    // styles for about me page that are used in html
         width: "100%",
         display: "flex",
         justifyContent: "center",
+        fontSize: "48px",
+        marginLeft: "15%",
+
     },
 
     paragraph: {
@@ -17,6 +20,11 @@ const styles = {    // styles for about me page that are used in html
 
     profilePicStyle: {
         float: "left",
+        borderRadius: "100px",
+        margin: "0 2% 2%",
+        height: "25%",
+        width: "50%"
+
 
     },
 
