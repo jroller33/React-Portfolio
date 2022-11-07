@@ -4,11 +4,11 @@ import "../../styles/Header.css";
 const styles = {
     
     h1Style: {
-        fontSize: "16px",
+        fontSize: "48px",
     },
 
     headerStyle: {
-        background: "#CAF0F8",
+        background: "#38b000",
     },
 };
 

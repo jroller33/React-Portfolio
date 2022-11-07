@@ -4,8 +4,9 @@ import "../../styles/Navigation.css";
 const styles = {
     navStyle: {
         alignItems: "center",
-        background: "CAF0F8",
+        background: "38b000",
         justifyContent: "space-evenly",
+        color: "black"
     },
 };
 

@@ -4,9 +4,9 @@ import React from "react";
 // add styles here
 const styles = {
     header: {
-        marginLeft: "14%",
-        gridColumn: "span 3",
         fontSize: "32px",
+        textAlign: "center",
+
     },
 
     section: {
@@ -41,8 +41,27 @@ export default function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            Click here to go to my resume
+            Linkedin profile
           </a>
+          <br />
+          <a
+            style={styles.resumeLink}
+            href="https://github.com/jroller33"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub profile
+          </a>
+          <br />
+          <h2> Proficiencies: </h2>
+          <p>
+         - JavaScript
+         - Express.js
+         - SQL
+         - MongoDB
+         - ReactJS
+         - nodejs
+          </p>
         </div>
         </section>
          
