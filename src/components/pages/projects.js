@@ -1,9 +1,10 @@
-import React from "react";
+//    done
+
 
 // using cards for each project that come from projectsJSON
 import projectsJSON from "../../projectsJSON.json";
 import Card from "./cards";   
-
+import React from "react";
 
 
 // add styles for projects here
@@ -23,10 +24,7 @@ const styles = {
     gap: "1%",
 
   },
-
 };
-
-
 
 
 // HTML for projects page goes here
