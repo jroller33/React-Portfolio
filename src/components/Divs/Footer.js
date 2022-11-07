@@ -7,8 +7,7 @@ const styles = {
       justifyContent: "space-around",
     },
   };
-  
-  //  add icons for each link
+
 
   //        add links to linkedin ****
   export default function Footer() {
@@ -40,4 +39,3 @@ const styles = {
       </footer>
     );
   }
-  
