@@ -6,21 +6,16 @@
 ## Table of Contents
 - [Usage](#usage)
 - [Link](#link)
-- [Screenshot](#screenshot)
 - [License](#license)
 - [Contact](#contact)
 
 
 ## Usage
-
+This is my portfolio using reactJS.
 
 ## Link
 
 https://jroller33.github.io/React-Portfolio
-
-## Screenshot
-
-
 
 ## License
 This project is licensed under the [MIT License](./LICENSE).
