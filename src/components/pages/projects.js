@@ -1,10 +1,7 @@
 import React from "react";
 
-
-import projectsJSON from "../../projectsJSON.json";
-
-
 // using cards for each project that come from projectsJSON
+import projectsJSON from "../../projectsJSON.json";
 import Card from "./cards";   
 
 
@@ -13,12 +10,17 @@ import Card from "./cards";
 const styles = {
 
   head: {
-
+    textAlign: "center",
+    fontSize: "32px",
 
   },
 
   grid: {
-
+    gridTemplateColumns: "1fr 1fr",
+    display: "grid",
+    textAlign: "center",
+    marginBottom: "10%",
+    gap: "1%",
 
   },
 
@@ -31,6 +33,20 @@ const styles = {
 export default function Portfolio() {
     return (
 
+      <section>
+      <h1 style={styles.head}>My Projects</h1>
+      <div style={styles.grid}>
+        {projectsJSON.map((projectsJSON) => (
+          <Card
+            key={projectsJSON.id}
+            image={projectsJSON.image}
+            title={projectsJSON.title}
+            github={projectsJSON.github}
+            link={projectsJSON.link}
+          />
+        ))}
+      </div>
+    </section>
 
     );
   }
