@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import Header from "./components/divs/Header";
-import Navbar from "./components/divs/Navbar";
+import Navigation from "./components/divs/Navigation";
 import Footer from "./components/divs/Footer";
 
 
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <Navbar thisPage={thisPage} newPage={newPage} /> 
+      <Navigation thisPage={thisPage} newPage={newPage} /> 
       {pageLoad()}
       <Footer />
     </div>
