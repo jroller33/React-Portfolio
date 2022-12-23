@@ -36,3 +36,11 @@ export default function Navigation({ newPage }) {
     );
 }
 
+// const styles = {
+//   navStyle: {
+//       alignItems: "center",
+//       background: "38b000",
+//       justifyContent: "space-evenly",
+//       color: "black"
+//   },
+// };
