@@ -1,14 +1,7 @@
 import React from "react";
 import "../../styles/Navigation.css";
 
-const styles = {
-    navStyle: {
-        alignItems: "center",
-        background: "38b000",
-        justifyContent: "space-evenly",
-        color: "black"
-    },
-};
+
 
 
 //  add links for about, portfolio, contact, and resume pages
@@ -17,7 +10,7 @@ export default function Navigation({ newPage }) {
     return (
 
         
-    <nav style={styles.navStyle} className="navbar">
+    <nav className="navbar">
     <a href="#about" onClick={() => newPage("about")}>
       About Me
     </a>
