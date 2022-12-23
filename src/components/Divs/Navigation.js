@@ -9,25 +9,40 @@ import "../../styles/Navigation.css";
 export default function Navigation({ newPage }) {
     return (
 
-        
-    <nav className="navbar">
-    <a href="#about" onClick={() => newPage("about")}>
-      About Me
-    </a>
-    <a href="#projects" onClick={() => newPage("projects")}>
-      Portfolio
-    </a>
-    <a href="#contact" onClick={() => newPage("contact")}>
-      Contact
-    </a>
-    <a href="#resume" onClick={() => newPage("resume")}>
-      Resume
-    </a>
-  </nav>
+      <nav class="py-2 bg-light border-bottom">
+    <div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        <li class="nav-item"><a href="#about" onClick={() => newPage("about")} class="nav-link link-dark px-2 active" aria-current="page">About</a></li>
 
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Projects</a></li>
+
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2"></a></li>
+        
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Contact</a></li>
+        
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Resume</a></li>
+      </ul>
+
+    </div>
+  </nav>
 
     );
 }
+
+/* <nav className="navbar">
+<a href="#about" onClick={() => newPage("about")}>
+About Me
+</a>
+<a href="#projects" onClick={() => newPage("projects")}>
+Portfolio
+</a>
+<a href="#contact" onClick={() => newPage("contact")}>
+Contact
+</a>
+<a href="#resume" onClick={() => newPage("resume")}>
+Resume
+</a>
+</nav>  */
 
 // const styles = {
 //   navStyle: {
