@@ -9,21 +9,22 @@ import "../../styles/Navigation.css";
 export default function Navigation({ newPage }) {
   return (
 
-    <nav class="py-2 bg-light border-bottom">
-      <div class="container d-flex flex-wrap">
-        <ul class="nav me-auto">
-          <li class="nav-item"><a href="#about" onClick={() => newPage("about")} class="nav-link link-dark px-2 active" aria-current="page">About</a></li>
+<div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Simple header</span>
+      </a>
 
-          <li class="nav-item"><a href="#projects" onClick={() => newPage("projects")} class="nav-link link-dark px-2">Projects</a></li>
-
-          <li class="nav-item"><a href="#contact" onClick={() => newPage("contact")} class="nav-link link-dark px-2">Contact</a></li>
-
-          <li class="nav-item"><a href="#resume" onClick={() => newPage("resume")} class="nav-link link-dark px-2">Resume</a></li>
-        </ul>
-
-      </div>
-    </nav>
-
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+    </header>
+  </div>
   );
 }
 
@@ -50,3 +51,18 @@ Resume
 //       color: "black"
 //   },
 // };
+
+/* <nav class="py-2 bg-light border-bottom">
+<div class="container d-flex flex-wrap">
+  <ul class="nav me-auto">
+    <li class="nav-item"><a href="#about" onClick={() => newPage("about")} class="nav-link link-dark px-2 active" aria-current="page">About</a></li>
+
+    <li class="nav-item"><a href="#projects" onClick={() => newPage("projects")} class="nav-link link-dark px-2">Projects</a></li>
+
+    <li class="nav-item"><a href="#contact" onClick={() => newPage("contact")} class="nav-link link-dark px-2">Contact</a></li>
+
+    <li class="nav-item"><a href="#resume" onClick={() => newPage("resume")} class="nav-link link-dark px-2">Resume</a></li>
+  </ul>
+
+</div>
+</nav> */
